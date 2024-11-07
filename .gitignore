@@ -1,23 +1,31 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node modules
+/node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Next.js build output
+/.next/
+/out/
 
-# testing
-/coverage
+# Prisma
+/prisma/migrations/
 
-# production
-/build
+# .env file containing sensitive information like DB credentials
+.env
 
-# misc
+# Logs
+*.log
+
+# OS-specific files
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+Thumbs.db
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# npm debug log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# IDE or editor settings
+.vscode/
+.idea/
+
+# Next.js local storage files
+.next/
